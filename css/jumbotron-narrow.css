@@ -1,0 +1,139 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Custom colors */
+.github { 
+  background-color: #4A4A4A; 
+  border-style: none;
+}
+
+.medium {
+  background-color: #14C767; 
+  border-style: none;
+}
+
+.instagram {
+  background-color: #9C2FBE;
+  border-style: none;
+}
+
+.reddit {
+  background-color: #FF4500;
+  border-style: none;
+}
+
+/* Custom vertical-align */
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+/* Custom image padding for header / cover images */
+
+.cover-left {
+  padding-right: 16px;
+}
+
+.cover-right {
+  padding-left: 16px;
+}
+
+/* Row padding */
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/** Standard **/
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 800px) {
+  .container {
+    max-width: 762px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 22px;
+  font-size: 21px;
+  margin: 8px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 800px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .row.vertical-align {
+    display: block; /* Turn off the flexible box layout */
+    text-align: center;
+  }
+  .row.img-responsive {
+    float: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
