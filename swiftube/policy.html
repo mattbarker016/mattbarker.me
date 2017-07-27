@@ -21,11 +21,10 @@
     <!-- Latest compiled JavaScript --> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script type='text/javascript' src='config.js'></script>
     <script src="https://use.fontawesome.com/49fe2b8715.js"></script>
 
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../css/jumbotron-narrow.css" rel="stylesheet">
 
   </head>
 
@@ -34,27 +33,42 @@
     <div class="container">
 
     <div class="head">
-        <script> $(function(){ $(".head").load("includes/header.html"); }); </script> 
+        <script> $(function(){ $(".head").load("../includes/header"); }); </script> 
     </div>
 
     <div class="jumbotron">
 
+    <center>
         <h1>SwifTube Private Policy</h1>
-            <br>
-        <img class="img-responsive" src="images/icon.png" srcset="images/icon.png 2x" alt="SwifTube">
-            <br>
+        <br><br>
+        <img class="img-responsive img-circle" src="images/icon.png" srcset="images/icon.png 2x" alt="SwifTube">
+        <br>
+    </center>
 
     </div>
 
     <div class="container">
 
         <div class="col-lg-12">
-            <p class="lead">SwifTube never stores any of your personal data or sensitive YouTube information. Ever. By default, SwifTube uses publically available data to load videos. If you choose to Sign In, SwifTube uses OAuth 2.0 to securely validate the request with Google. To access your subscription feed, SwifTube will <strong>View your YouTube account</strong>, which allows SwifTube to "View your videos, playlists, and YouTube activity". This is necessary to obtain the latest videos of the channels you are subscribed to. Upon signing out, SwifTube will reset and clear all tokens related to your account.</p>
+            <br>
+                <p class="lead">SwifTube never stores any of your personal data or sensitive YouTube information. Ever.</p> 
+
+                <p class="lead">By default, SwifTube uses your phone's language and region preferences, as well as publicly accessible data, to load videos and search results. If you choose to Sign In, SwifTube uses OAuth 2.0 to securely validate the request with Google.</p>
+
+                <p class="lead">Only at this point will SwifTube <strong>view your YouTube account</strong>, which allows SwifTube to <strong>"view your videos, playlists, and YouTube activity"</strong> to generate your subscription feed. This is necessary to obtain the latest videos of the channels you are subscribed to. Upon signing out, SwifTube will reset and clear all tokens related to your account.</p>
+
+                <br><hr><br>
+
+                <p class="lead">Hey... <strong>thanks</strong> for taking the time to check this page out. We're all guilty of accepting User Agreements without reading them, but you took the time to read this one. Neat! It wasn't even that bad, was it? This deserves a <a href="https://youtu.be/ZZ5LpwO-An4">celebration</a>.</p>
+
+            <br>
         </div>
+
+
     </div>
 
     <div class="foot">
-        <script> $(function(){ $(".foot").load("includes/footer.html"); }); </script> 
+        <script> $(function(){ $(".foot").load("../includes/footer"); }); </script> 
     </div>
 
     </div> <!-- /container -->

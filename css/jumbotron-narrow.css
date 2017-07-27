@@ -49,6 +49,12 @@ body {
   padding-bottom: 40px;
 }
 
+.icon {
+  border-style: solid; 
+  border-width: 1px 1px;
+  border-color: #BBBBBB;
+}
+
 /** Standard **/
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -127,13 +133,14 @@ body {
 }
 
 @media (max-width: 767px) {
-  .row.vertical-align {
+  .vertical-align {
     display: block; /* Turn off the flexible box layout */
     text-align: center;
   }
-  .row.img-responsive {
-    float: none;
+  .img-responsive {
+    float: none !important;
     padding-top: 32px;
     padding-bottom: 32px;
+
   }
 }
